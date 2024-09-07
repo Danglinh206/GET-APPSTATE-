@@ -1,0 +1,33 @@
+{
+  "name": "nguyen-duc-tai",
+  "version": "1.2.15",
+  "description": "bot mitai source code by nguyễn đức tài.",
+  "main": "mitai.js",
+  "scripts": {
+    "dev": "node index",
+    "test": "nodemon --trace-warnings --use_strict --async-stack-traces mitai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raw.githubusercontent.com/nguyenductai206/nguyenductai206/main/package.json"
+  },
+  "author": "nguyen-duc-tai",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "helmet": "^7.0.0",
+    "moment-timezone": "^0.5.43",
+    "node": "^14.21.3",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "totp-generator": "^0.0.14",
+    "uuid": "^9.0.1"
+  }
+}

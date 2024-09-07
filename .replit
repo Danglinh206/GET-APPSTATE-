@@ -1,0 +1,6 @@
+run = "npm run dev"
+entrypoint = "main.sh"
+
+[[ports]]
+localPort = 80
+externalPort = 80
